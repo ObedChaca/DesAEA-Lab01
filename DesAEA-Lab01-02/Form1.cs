@@ -31,6 +31,15 @@ namespace DesAEA_Lab01_02
             string car = cboCargo.Text;
 
             dgvUsuarios.Rows.Add(cod, dni, nom, ape, dir, tel, ema, fec, dep);
+            txtNombre.Text = "";
+            txtDni.Text = "";
+            txtApellido.Text = "";
+            txtDireccion.Text = "";
+            txtTelefono.Text = "";
+            txtEmail.Text = "";
+            txtFecha.Text = "";
+            cboDepartamento.Text = "Seleccionar";
+            cboCargo.Text = "Seleccionar";
             txtCodigo.Text = Convert.ToString(cod + 1);
         }
     }
